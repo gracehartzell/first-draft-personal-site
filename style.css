@@ -22,6 +22,10 @@ h2 {
     font-size: 1.5em
 }
 
+#icons {
+    text-align: center;
+}
+
 /* HEADER CODE */
 header{
     background: #555f88bd;
