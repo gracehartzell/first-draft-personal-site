@@ -1,13 +1,106 @@
-#large-title {
-    color: teal;
-    font-size: 4em
+body{
+    font: 15px/1.5 monospace;
+    padding: 0;
+    margin: 3;
+    background-color: #fbf2ed;
 }
 
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding:0;
+}
 
 h2 {
-    font-family: Calibri;
-    color: teal;
+    font-family: monospace;
+    color: rgb(8, 22, 22);
     font-size: 1.5em
 }
 
+/* HEADER CODE */
+header{
+    background: #555f88bd;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #c8cad9 3px solid;
+  }
+  header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  header #branding{
+    float: left;
+  }
+  header #branding h1{
+    margin: 0;
+  }
+  header nav{
+    float: right;
+    margin-top: 10px;
+  }
+  header .highlight, header, .buttons a{
+    color: rgb(210, 210, 216);
+    font-weight: bold;
+  }
+  header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+  }
 
+
+
+  /* SHOWCASE (where the main image/headline goes */
+  #showcase {
+      min-height: 500px;
+      background:url("../LandingPage/Big\ Bend\ S\ Loop.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      text-align: center;
+      color: #01685c;
+  }
+  #showcase h1 {
+      margin-top: 170px;
+      color: #323749;
+      font-size: 50px;
+      margin-bottom: 10px;
+  }
+  #showcase h2 {
+      font-size: 14px;
+      color: #f3dfd2;
+  }
+ 
+
+/* BLOGGITY BLOG BLOG */
+#blog h1 {
+    padding-top: 20px;
+    font-size: 25px;
+    color: #000000;
+    background: #fbf2ed;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+  /*FOOTER FOOTER FOOTER*/
+  footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #555f88bd;
+    text-align: center;
+  }
