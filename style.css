@@ -89,7 +89,7 @@ header{
   /* SHOWCASE (where the main image/headline goes */
   #showcase {
       min-height: 500px;
-      background:url("../LandingPage/Big\ Bend\ S\ Loop.jpg");
+      background:url("bigbend.jpg");
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
