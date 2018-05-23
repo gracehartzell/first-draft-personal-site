@@ -16,14 +16,26 @@ ul{
     padding:0;
 }
 
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(8, 22, 22);
+    font-size: 24px;
+}
+
 h2 {
     font-family: monospace;
     color: rgb(8, 22, 22);
-    font-size: 1.5em
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+p {
+    text-indent: 3em;
 }
 
 #icons {
     text-align: center;
+    color: #555f88bd;
 }
 
 /* HEADER CODE */
@@ -74,7 +86,6 @@ header{
       background-position: center;
       background-size: cover;
       text-align: center;
-      color: #01685c;
   }
   #showcase h1 {
       margin-top: 170px;
@@ -89,15 +100,11 @@ header{
  
 
 /* BLOGGITY BLOG BLOG */
-#blog h1 {
-    padding-top: 20px;
-    font-size: 25px;
-    color: #000000;
-    background: #fbf2ed;
-}
 
-h2 {
+
+.blog h2 {
     font-size: 20px;
+    margin-top: 40px;
 }
 
   /*FOOTER FOOTER FOOTER*/
