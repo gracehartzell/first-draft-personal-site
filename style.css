@@ -46,6 +46,7 @@ p {
     color: #c0c7e5;
 }
 
+
 /* HEADER CODE */
 header{
     background: #555f88bd;
@@ -61,7 +62,6 @@ header{
     font-size: 16px;
   }
   header li{
-    float: left;
     display: inline;
     padding: 0 20px 0 20px;
   }
@@ -126,3 +126,4 @@ header{
         
     }
   }
+
